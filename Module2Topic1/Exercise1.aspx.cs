@@ -9,9 +9,9 @@ namespace Module1Exercise1
 {
     public partial class Exercise1 : System.Web.UI.Page
     {
-        protected void Page_Load(object sender, EventArgs e)
+        protected void NowPlaying(object sender, EventArgs e)
         {
-
+            SongStatus.InnerHtml = "Now Playing: Ayo - Chris Brown";
         }
     }
 }
